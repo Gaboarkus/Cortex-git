@@ -1,0 +1,12 @@
+{
+  "mockedWorkflows": [
+    {
+      "mockFilePath": "Mocks\\MainCortexEdge_mock.xaml",
+      "sourceWorkflowPath": "MainCortexEdge.xaml"
+    },
+    {
+      "mockFilePath": "Mocks\\MainCortexEdge_mock_1.xaml",
+      "sourceWorkflowPath": "MainCortexEdge.xaml"
+    }
+  ]
+}
