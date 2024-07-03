@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1172,4828.666666666667" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1172,5287.333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -85,19 +85,19 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="692,4764" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="692,5222.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Cortex Edge" sap:VirtualizedContainerService.HintSize="630,4676" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="c3ba116f-1d11-4a91-bdbe-8980fe303e13" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Cortex Edge" sap:VirtualizedContainerService.HintSize="630,5134.666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="c3ba116f-1d11-4a91-bdbe-8980fe303e13" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,4356" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="596,4814.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -516,12 +516,54 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="534,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3ba116f-1d11-4a91-bdbe-8980fe303e13" Version="V3">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel'" sap:VirtualizedContainerService.HintSize="534,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3ba116f-1d11-4a91-bdbe-8980fe303e13" Version="V3">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="d3ba9509-ad84-4fec-8f2e-cba000b1740d" CvElementArea="455, 562, 73, 23" CvTextArea="472, 567, 37, 13" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="454, 562, 76, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;java name='Cancel' role='push button' /&gt;" FuzzySelectorArgument="&lt;java name='Cancel' role='push button' check:text='Cancel' /&gt;" Guid="45a39263-9194-46ae-8cae-6131b9f6b899" InformativeScreenshot="ccc2bf494d6a3c7dc3eb851e47aed0bf.png" ScopeSelectorArgument="&lt;wnd app='semantic ai.exe' cls='SunAwtDialog' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="14, 34, 234, 524" FullSelectorArgument="&lt;java cls='JTree' role='tree' /&gt;" FuzzySelectorArgument="&lt;java cls='JTree' role='tree' check:fulltext='Authoring&amp;#xD;&amp;#xA;CORTEX EIP&amp;#xD;&amp;#xA;Data Formats&amp;#xD;&amp;#xA;  Coordinates System &amp;amp; Format&amp;#xD;&amp;#xA;  Date Time Formats&amp;#xD;&amp;#xA;  Distance&amp;#xD;&amp;#xA;  Elevation&amp;#xD;&amp;#xA;Developer&amp;#xD;&amp;#xA;Documents &amp;amp; Media&amp;#xD;&amp;#xA;  OCR&amp;#xD;&amp;#xA;  Translation&amp;#xD;&amp;#xA;Filter&amp;#xD;&amp;#xA;General&amp;#xD;&amp;#xA;GIS&amp;#xD;&amp;#xA;  Geocoder&amp;#xD;&amp;#xA;Language&amp;#xD;&amp;#xA;Logging&amp;#xD;&amp;#xA;Merge&amp;#xD;&amp;#xA;Network&amp;#xD;&amp;#xA;Network View&amp;#xD;&amp;#xA;Notifications&amp;#xD;&amp;#xA;Ontology&amp;#xD;&amp;#xA;Provenance&amp;#xD;&amp;#xA;Search&amp;#xD;&amp;#xA;Startup&amp;#xD;&amp;#xA;Style&amp;#xD;&amp;#xA;Tags&amp;#xD;&amp;#xA;Theme&amp;#xD;&amp;#xA;Web Search' /&gt;" Guid="1e9bafbe-8049-499b-9232-bb7c982f77c2" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Networks'" sap:VirtualizedContainerService.HintSize="534,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3ba116f-1d11-4a91-bdbe-8980fe303e13" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="82ed3da9-d5fe-43b3-8728-868de17495a1" CvElementArea="0, 79, 66, 28" CvTextArea="6, 87, 52, 13" CvTextArgument="Networks" CvType="Button" DesignTimeRectangle="0, 78, 66, 32" DesignTimeScaleFactor="1" ElementType="TabPage" FullSelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='Networks' role='page tab' /&gt;" FuzzySelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='Networks' role='page tab' check:text='Networks' /&gt;" Guid="20895396-a7a9-465e-8a30-77e8fd9e3398" InformativeScreenshot="2eb85b3289eee7a97e9c341d564c10c2.png" ScopeSelectorArgument="&lt;wnd app='semantic ai.exe' cls='SunAwtFrame' title='Cortex Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="82ed3da9-d5fe-43b3-8728-868de17495a1" CvTextArea="72, 87, 64, 13" CvTextArgument="CORTEX EIP" CvType="Text" DesignTimeRectangle="66, 78, 78, 32" ElementType="TabPage" FullSelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='CORTEX EIP' role='page tab' /&gt;" FuzzySelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='CORTEX EIP' role='page tab' check:text='CORTEX EIP' /&gt;" Guid="a64cefcb-ac23-45f0-9d8f-aa2773ddfe0d" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New'" sap:VirtualizedContainerService.HintSize="534,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3ba116f-1d11-4a91-bdbe-8980fe303e13" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="3c54ef0a-2bc8-43ee-85ca-acc6b4961a27" CvTextArea="6, 120, 44, 16" CvTextArgument="+ New" CvType="Text" DesignTimeRectangle="4, 116, 66, 26" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='Networks' role='page tab' /&gt;&lt;java name='New' role='menu' /&gt;" FuzzySelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='Networks' role='page tab' /&gt;&lt;java name='New' role='menu' check:text='New' /&gt;" Guid="1af6a0c9-8dc7-4d51-a5fc-098e378d7eb8" InformativeScreenshot="152fa254a45f069126cd4cbf416e46d0.png" ScopeSelectorArgument="&lt;wnd app='semantic ai.exe' cls='SunAwtFrame' title='Cortex Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3c54ef0a-2bc8-43ee-85ca-acc6b4961a27" CvElementArea="73, 116, 89, 25" CvTextArea="108, 123, 39, 15" CvTextArgument="Open..." CvType="Button" DesignTimeRectangle="72, 116, 92, 26" ElementType="Button" FullSelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='Networks' role='page tab' /&gt;&lt;java name='Open…' role='push button' /&gt;" FuzzySelectorArgument="&lt;java role='page tab list' /&gt;&lt;java name='Networks' role='page tab' /&gt;&lt;java name='Open…' role='push button' check:text='Open…' /&gt;" Guid="4e654536-c368-48c0-84c8-73813ee46fbe" SearchSteps="Selector, FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
