@@ -7,6 +7,10 @@
     {
       "mockFilePath": "Mocks\\MainCortexEdge_mock_1.xaml",
       "sourceWorkflowPath": "MainCortexEdge.xaml"
+    },
+    {
+      "mockFilePath": "Mocks\\MainCortexEdge_mock_2.xaml",
+      "sourceWorkflowPath": "MainCortexEdge.xaml"
     }
   ]
 }

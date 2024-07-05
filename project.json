@@ -46,7 +46,7 @@
     "fileInfoCollection": [
       {
         "editingStatus": "InProgress",
-        "testCaseId": "96d4543c-071a-4bf3-aa62-49b7c67417aa",
+        "testCaseId": "fe7ba7d1-097e-4e14-92e5-72eb6a8f4eac",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCaseCortexEdge.xaml"
