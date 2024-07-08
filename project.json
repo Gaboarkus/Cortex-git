@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.10.0.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -45,11 +45,18 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "fe7ba7d1-097e-4e14-92e5-72eb6a8f4eac",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCaseCortexEdge.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c4078648-9473-441e-8b61-83cbb8155dee",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestNetwork.xaml"
       }
     ],
     "saveToCloud": false
